@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('/advokat-peneva/fonts/Montserrat-Bold.woff2') format('woff2'),
+    src: url('./../../fonts/Montserrat-Bold.woff2') format('woff2'),
         url('/advokat-peneva/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/advokat-peneva/fonts/Montserrat-Bold.woff2') format('woff2'),
+    src: url('./../../fonts/Montserrat-Bold.woff2') format('woff2'),
         url('/advokat-peneva/fonts/Montserrat-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('/advokat-peneva/fonts/Lato-Bold.woff2') format('woff2'),
+    src: url('./../../fonts/Lato-Bold.woff2') format('woff2'),
         url('/advokat-peneva/fonts/Lato-Bold.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
@@ -24,16 +24,16 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('/advokat-peneva/fonts/Lato-Regular.woff2') format('woff2'),
-        url('/advokat-peneva/fonts/Lato-Regular.woff') format('woff');
+    src: url('./../../fonts/Lato-Regular.woff2') format('woff2'),
+        url('./../../fonts/Lato-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('/advokat-peneva/fonts/Lato-Italic.woff2') format('woff2'),
-        url('/advokat-peneva/fonts/Lato-Italic.woff') format('woff');
+    src: url('./../../fonts/Lato-Italic.woff2') format('woff2'),
+        url('./../../fonts/Lato-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
