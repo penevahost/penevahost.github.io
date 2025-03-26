@@ -1,0 +1,29 @@
+#site-header {
+    /*background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/M-1.png");*/
+    
+    background: radial-gradient(circle, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)),
+              url("./../../images/M.png");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+      
+}
+
+#site-header .section-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+#site-header .section-wraper {
+    height: auto;
+}
+
+/*#site-header .section-wraper .navigation {
+    display: flex;
+
+    
+}*/
+

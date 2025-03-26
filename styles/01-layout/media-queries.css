@@ -1,0 +1,147 @@
+@media only screen and (width <=480px) {
+    :root {
+        --font-base-size: 12px;
+    }
+
+    #services .areas-list .det {
+        flex: 1 0 100%;
+    }
+
+    .contacts .section-wraper {
+        height: auto;
+    }
+
+    #site-footer .cnt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #site-footer .cnt .contact-details {
+        flex: 1 0 25%;
+    }
+}
+
+@media only screen and (width > 480px) {
+    :root {
+        --font-base-size: 14px;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+    }
+
+    body .section-wraper {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    #services .section-header-title {
+        margin-bottom: 0;
+    }
+
+    #testimonials .testimonials-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #testimonials .testimonials-list .testimonial {
+        flex: 1 0 25%;
+    }
+
+
+
+    #site-footer .cnt {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    #site-footer .cnt .contact-details {
+        flex: 1 0 25%;
+    }
+}
+
+@media only screen and (width > 768px) {
+    :root {
+        --font-base-size: 16px;
+    }
+
+    #law-firm .content-wraper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #law-firm .content-wraper .law-firm-content {
+        flex: 1 0 50%;
+    }
+
+    #law-firm .content-wraper .law-firm-picture {
+        flex: 1 0 50%;
+        align-self: center;
+        max-width: 20em;
+    }
+
+    #advokat-peneva .two-col {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #advokat-peneva .two-col .peneva-copy {
+        flex: 1 0 50%;
+    }
+
+    #advokat-peneva .two-col .peneva-img {
+        flex: 1 0 50%;
+        align-self: center;
+        max-width: 20em;
+    }
+
+    #testimonials .testimonials-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #testimonials .testimonials-list .testimonial {
+        flex: 1 0 25%;
+    }
+
+    #site-footer .cnt {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #site-footer .cnt .contact-details {
+        flex: 1 0 25%;
+    }
+}
+
+@media only screen and (width > 1024px) {
+    :root {
+        --font-base-size: 16px;
+    }
+
+    .section-wraper {
+        max-width: 1200px;
+    }
+
+}
+
+@media only screen and (width > 1280px) {
+    :root {
+        --font-base-size: 18px;
+    }
+
+}

@@ -1,0 +1,101 @@
+#testimonials {
+    background-color: rgb(var(--color-main-background));
+    padding-bottom: 2em;
+}
+
+#testimonials .slider-wraper {
+    margin: 0 auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: left;
+    border-right: 1em solid var(--color-main);
+}
+
+.slider-wraper .owerflow {
+    overflow: hidden;
+    width: 100%;
+}
+
+#testimonials .slider-wraper .slide-content {
+    display: none;
+    transition: 1s ease;
+
+}
+
+#testimonials .slider-wraper input[type="radio"] {
+    display: none;
+}
+
+#testimonials .slider-wraper label {
+    display: inline-block;
+    background-color: var(--color-main-second);
+    /*opacity: .6;*/
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    margin: 0 1em 0 0;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+#testimonials .slider-wraper label:hover {
+    background-color: var(--color-main);
+
+}
+
+#testimonials .slider-wraper .owerflow {
+    /*background-color: var(--color-white);*/
+    padding: 3em 2em 1.5em 0;
+    border-radius: 0.1em;
+    /*box-shadow: var(--box-shadow);*/
+}
+
+#testimonials .slider-wraper .owerflow blockquote {
+    opacity: 1;
+
+}
+
+#testimonials .slider-wraper .owerflow blockquote p {
+    padding-top: 2em;
+}
+
+#testimonials .slider-wraper .owerflow blockquote:before {
+    display: inline-flex;
+    content: '';
+
+    /* Using the background-image and
+               its related properties to add
+               the SVG content */
+    background-image: url('/advokat-peneva/images/quote-right-solid.svg');
+    background-size: 2em 2em;
+    height: 2em;
+    width: 2em;
+
+}
+
+#testimonials .slider-wraper .owerflow .client-name {
+    opacity: .5;
+    /*border-top: 2px solid var(--color-main-second);*/
+    padding-top: .5em;
+    padding-bottom: 2em;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+#testimonials .slider-wraper #slide1:checked+.slide-content {
+    display: block;
+}
+
+#testimonials .slider-wraper #slide1:checked+.slide-content {
+    display: block;
+}
+
+#testimonials .slider-wraper #slide2:checked+.slide-content {
+    display: block;
+}
+
+#testimonials .slider-wraper #slide3:checked+.slide-content {
+    display: block;
+}

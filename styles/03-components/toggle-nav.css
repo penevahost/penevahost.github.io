@@ -1,0 +1,41 @@
+/*#toggle-nav {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#toggle-nav-label {
+    display: block;
+    margin-left: auto;
+
+    z-index: 2;
+    text-align: center;
+
+}
+
+#toggle-nav-label:hover {
+    cursor: pointer;
+}
+
+#toggle-nav-label .close {
+    display: none;
+}
+
+#toggle-nav-label .open svg {
+    color: var(--body-font-family);
+}
+
+#toggle-nav:checked~.site-header nav {
+    display: block;
+    z-index: 1;
+}
+
+#toggle-nav:checked~.site-header #toggle-nav-label .open {
+    display: none;
+}
+
+#toggle-nav:checked~.site-header #toggle-nav-label .close {
+    display: block;
+    color: rgb(var(--color-main-background));
+}*/

@@ -1,0 +1,59 @@
+.det {
+  flex: 1 0 40%;
+  background-color: rgba(var(--color-main-first-background), 0.3);
+  border-radius: 0.1em;
+  /*box-shadow: var(--box-shadow);*/
+
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  list-style-type: none;
+  list-style: none;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  color: rgb(var(--color-main-background));
+  transition: 0.5s;
+}
+
+summary::-webkit-details-marker {
+  display: none; /* Скрива триъгълника в Safari (WebKit) */
+}
+
+summary:hover {
+    background-color: rgba(var(--color-white-rgb), 0.3);
+}
+
+
+summary,
+.details-info {
+  padding: .5em 1em;
+  
+}
+
+.details-info {
+
+  border-bottom: 1px solid var(--color-main-second);
+  font-size: 0.8em;
+  font-weight: 400;
+  font-style: italic;
+  text-indent: 2em;
+  background-color: rgba(var(--color-main-second-background), 0.3);
+  color: rgb(var(--color-main-background));
+
+}
+
+summary .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.26s;
+  color: rgb(var(--color-main-background));
+}
+
+details[open] summary .icon {
+  transform: rotate(180deg);
+}

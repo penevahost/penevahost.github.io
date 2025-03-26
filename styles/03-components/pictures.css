@@ -1,0 +1,21 @@
+.image img {
+    position: relative;
+    border-radius: 0.1em;
+}
+
+/*.photo-credit-name{
+    font-weight: bold;
+}*/
+
+.image .photo-credit {
+    position: relative;
+    top: -2em;
+    left: 1em;
+    z-index: 1;
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 0.1em;
+    background-color: rgba(var(--color-white-rgb), 0.3);
+    color: rgba(var(--font-color-rgb), 0.6);
+
+}

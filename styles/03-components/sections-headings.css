@@ -1,0 +1,46 @@
+.light-section-header {
+    color: var(--color-main);
+
+}
+
+.dark-section-header {
+    color: var(--color-main-background);
+
+
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    padding-bottom: 0;
+    letter-spacing: 0.0625em;
+    font-weight: bold;
+}
+
+.section-header-title {
+    padding-bottom: 1em;
+    font-weight: bolder;
+}
+
+.section-resume {
+    text-transform: uppercase;
+
+}
+
+.section-header-hr {
+    width: 5em;
+    height: 1px;
+    /* Дебелина на линията */
+    margin-top: 1em;
+    /* Отстояния */
+    margin-bottom: 2em;
+}
+
+.dark-section-header .section-header-hr {
+    background-color: rgb(var(--color-main-background));
+
+}
+
+.light-section-header .section-header-hr {
+    background-color: var(--color-main);
+
+}

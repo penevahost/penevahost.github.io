@@ -1,0 +1,21 @@
+.dark-button {
+    /*background-color: rgba(var(--color-main-first-background), 0.7);*/
+    border: 1px solid rgb(var(--color-main-background));
+
+}
+
+.dark-button a {
+    color: rgb(var(--color-main-background));
+
+}
+
+.dark-button:hover {
+    background-color: rgb(var(--color-main-background), 0.7);
+    cursor: pointer;
+
+}
+
+.dark-button:hover a {
+    color: var(--color-main);
+
+}
