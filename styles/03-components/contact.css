@@ -26,3 +26,8 @@
     color: var(--color-white-rgb);
     text-decoration: none;
 }
+
+#contact .cnt .contact-details .map-link {
+    color: var(--color-white-rgb);
+    text-decoration: none;
+}
