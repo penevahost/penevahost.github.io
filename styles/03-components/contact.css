@@ -17,16 +17,8 @@
     text-transform: uppercase;
 }
 
-#contact .cnt .contact-details .telephon-number {
-    color: var(--color-white-rgb);
-    text-decoration: none;
-}
-
-#contact .cnt .contact-details .email-link {
-    color: var(--color-white-rgb);
-    text-decoration: none;
-}
-
+#contact .cnt .contact-details .telephon-number,
+#contact .cnt .contact-details .email-link,
 #contact .cnt .contact-details .map-link {
     color: var(--color-white-rgb);
     text-decoration: none;
