@@ -25,4 +25,5 @@
 #contact .cnt .contact-details .email-link {
     color: var(--color-white-rgb);
     text-decoration: none;
+    text-transform: uppercase;
 }
