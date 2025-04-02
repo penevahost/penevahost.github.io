@@ -15,7 +15,7 @@
 }
 
 .bottom-bar a {
-    color: rgba(var(--color-white-rgb), var(--transparency));
+    color: rgba(var(--color-white-rgb), 1);
     text-decoration: none;
     transition: 0.5s;
     font-weight: bold;
