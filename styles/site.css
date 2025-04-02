@@ -2,14 +2,13 @@
 @import url(00-global/variables.css);
 @import url(00-global/typography.css);
 
-@import url(01-layout/media-queries.css);
 @import url(01-layout/global.css);
+@import url(01-layout/media-queries.css);
 
 @import url(02-sections/00-site-header.css);
 @import url(02-sections/01-law-firm.css);
 @import url(02-sections/02-services.css);
 @import url(02-sections/03-advokat-peneva.css);
-@import url(02-sections/04-testimonials.css);
 @import url(02-sections/05-contacts.css);
 
 @import url(03-components/site-logo.css);
@@ -18,10 +17,8 @@
 @import url(03-components/navigation.css);
 @import url(03-components/call-to-action.css);
 @import url(03-components/button.css);
-@import url(03-components/testimonial-slider.css);
 @import url(03-components/dark-button.css);
 @import url(03-components/light-button.css);
-
 @import url(03-components/sections-headings.css);
 @import url(03-components/botom-bar.css);
 @import url(03-components/contact.css);
