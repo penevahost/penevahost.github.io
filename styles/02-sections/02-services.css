@@ -1,17 +1,15 @@
 #services {
-
     color: rgb(var(--color-main-background));
-    /*background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/elephant-new-small.png");
-    background-color: rgb(var(--color-main-background));*/
-
     background: radial-gradient(circle, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)),
-        url("./../../images/elephant-new-small.png");
+        url("./../../images/elephant-new-small.webp");
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 #services .no-padding-top {
     padding-top: 0;
+    
 }
 
 #services .areas-list {
@@ -19,4 +17,5 @@
     flex-wrap: wrap;
     gap: 2em;
     justify-content: center;
+    
 }
