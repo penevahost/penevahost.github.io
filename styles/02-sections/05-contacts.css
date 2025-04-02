@@ -1,5 +1,4 @@
 .contacts {
-    background-color: var(--color-main-second);
     color: rgb(var(--color-main-background));
     background: radial-gradient(circle, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)),
         url("./../../images/scale.webp");
