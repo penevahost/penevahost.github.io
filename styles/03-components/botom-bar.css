@@ -28,6 +28,6 @@
 .bottom-bar .copyrights {
     /*border-bottom: var(--border);*/
     /*padding-bottom: 0.1em;*/
-    color: rgba(var(--color-white-rgb), .8);
+    color: rgba(var(--color-white-rgb), 1);
 
 }
