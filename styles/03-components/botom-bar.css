@@ -1,4 +1,4 @@
-.botom-bar {
+.bottom-bar {
     background-color: var(--font-color);
     color: rgb(var(--color-main-background));
     text-transform: uppercase;
@@ -6,33 +6,33 @@
 
 }
 
-.botom-bar .section-wraper {
+.bottom-bar .section-wraper {
     padding: 0.5em;
 }
 
-.botom-bar span {
+.bottom-bar span {
     font-size: 0.7em;
 }
 
-.botom-bar a {
+.bottom-bar a {
     color: rgba(var(--color-white-rgb), var(--transparency));
     text-decoration: none;
     transition: 0.5s;
     font-weight: bold;
 }
 
-.botom-bar a:hover {
+.bottom-bar a:hover {
     color: var(--color-main-second);
 }
 
-.botom-bar .copyrights {
+.bottom-bar .copyrights {
     /*border-bottom: var(--border);*/
     /*padding-bottom: 0.1em;*/
     color: rgba(var(--color-white-rgb), var(--transparency));
 
 }
 
-.botom-bar .botom span {
+.bottom-bar .bottom span {
     letter-spacing: 0.1em;
     font-size: 0.6em;
     color: rgba(var(--color-white-rgb), var(--transparency));
