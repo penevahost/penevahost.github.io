@@ -85,7 +85,7 @@
     #law-firm .content-wraper .law-firm-picture {
         flex: 1 0 50%;
         align-self: center;
-        /*max-width: 20em;*/
+        max-width: 20em;
     }
 
     #advokat-peneva .two-col {
@@ -102,7 +102,7 @@
     #advokat-peneva .two-col .peneva-img {
         flex: 1 0 50%;
         align-self: center;
-        /*max-width: 20em;*/
+        max-width: 20em;
     }
 
     #testimonials .testimonials-list {
