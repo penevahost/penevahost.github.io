@@ -1,11 +1,11 @@
 .light-button {
-    /*background-color: rgba(var(--color-white-rgb), 1);*/
-    border: 1px solid rgb(var(--color-white-rgb));
+    background-color: rgba(var(--color-white-rgb), 1);
+    /*border: 1px solid rgb(var(--color-white-rgb));*/
     transition: 0.5s;
 }
 
 .light-button a {
-    color: var(--color-white);
+    color: var(--color-main);
     transition: 0.5s;
 }
 
