@@ -1,6 +1,6 @@
 .button {
     white-space: nowrap;
-    border-radius: 0.2em;
+    border-radius: 0.1em;
     padding: 1em 1.5em;
     transition: 0.5s;
     box-shadow: var(--box-shadow);
