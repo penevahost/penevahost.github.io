@@ -46,9 +46,7 @@
 }
 
 .light-section-header .section-header-title{
-    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 1), rgba(var(--color-main-second-rgb), 1), rgba(var(--color-second-rgb), 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-main-second);
 }
 
 .light-section-header .section-header-hr {
