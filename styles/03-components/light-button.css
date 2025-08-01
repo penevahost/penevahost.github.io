@@ -11,7 +11,7 @@
 }
 
 .light-button:hover {
-    background: linear-gradient(90deg, var(--color-main), var(--color-second));
+    background: linear-gradient(135deg, var(--color-main), var(--color-second));
     cursor: pointer;
 }
 
