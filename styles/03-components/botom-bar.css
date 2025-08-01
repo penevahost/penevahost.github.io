@@ -1,0 +1,29 @@
+.bottom-bar {
+    color: var(--color-main-background);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bottom-bar span {
+    font-size: 0.7em;
+}
+
+.bottom-bar a {
+    color: var(--color-main-background);
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    
+}
+
+.bottom-bar a:hover {
+    /*color: var(--color-second);*/
+    cursor: pointer;
+}
+
+.bottom-bar .copyrights {
+    padding-top: 0.5em;
+    border-top: 1px solid var(--color-main-background);
+}

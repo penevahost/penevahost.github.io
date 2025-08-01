@@ -1,0 +1,54 @@
+.light-section-header {
+    color: var(--color-main);
+}
+
+.dark-section-header {
+    color: var(--color-main-background);
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    padding-bottom: 0;
+    letter-spacing: 0.0625em;
+    font-weight: bold;
+}
+
+.section-header-title {
+    padding-bottom: 1em;
+    font-weight: bolder;
+}
+
+.section-resume {
+    text-transform: uppercase;
+}
+
+.section-header-hr {
+    width: 5em;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.dark-section-header .section-subtitle{
+    color: var(--color-main-background);
+}
+
+.dark-section-header .section-header-title{
+    color: var(--color-main-background);
+}
+
+.dark-section-header .section-header-hr {
+    background-color: var(--color-main-background);
+}
+
+.light-section-header .section-subtitle{
+    color: var(--color-main-second);
+}
+
+.light-section-header .section-header-title{
+    color: var(--color-main);
+}
+
+.light-section-header .section-header-hr {
+    background-color: var(--color-main-second);
+}

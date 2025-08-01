@@ -1,0 +1,44 @@
+.site-logo {
+    color: rgb(var(--color-main-background));
+    position: relative;
+    bottom: -0.5em;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.site-logo a {
+    text-decoration: none;
+    color: rgb(var(--color-main-background));
+}
+
+.site-logo .title {
+    font-family: var(--body-font-family);
+    text-transform: uppercase;
+    padding-bottom: 0;
+    display: block;
+}
+
+.site-logo .name {
+    font-family: var(--body-font-family);
+    text-transform: uppercase;
+    padding-bottom: 0;
+    display: block;
+    position: absolute;
+    bottom: -1em;
+    letter-spacing: 1px;
+}
+
+.site-logo .title .accent {
+    font-family: var(--headings-font-hamily);
+    font-weight: bolder;
+}
+
+.site-logo .name .accent {
+    font-family: var(--headings-font-hamily);
+    font-weight: bolder;
+}
+
+.navigation .site-logo .name {
+    position: absolute;
+    bottom: -0.5em;
+}

@@ -1,0 +1,26 @@
+#contact .cnt .contact-details .title {
+    display: block;
+    font-weight: bold;
+    font-family: var(--headings-font-hamily);
+}
+
+#contact .cnt .contact-details hr {
+    width: 10em;
+    opacity: 50%;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+#contact .cnt .contact-details .copy {
+    display: block;
+    font-family: var(--body-font-hamily);
+    text-transform: uppercase;
+}
+
+#contact .cnt .contact-details .telephon-number,
+#contact .cnt .contact-details .email-link,
+#contact .cnt .contact-details .map-link,
+#contact .cnt .contact-details .title {
+    color: var(--color-main-background);
+    text-decoration: none;
+}
