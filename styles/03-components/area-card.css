@@ -22,7 +22,7 @@ summary::-webkit-details-marker {
 }
 
 summary:hover {
-    background-color: rgba(var(--color-main-background), 0.3);
+    background-color: rgba(var(--color-main-rgb), 0.3);
 }
 
 summary,
@@ -31,7 +31,7 @@ summary,
 }
 
 .details-info {
-    border-bottom: 1px solid var(--color-main-second);
+    border-bottom: 1px solid var(--color-main);
     font-weight: 400;
     text-indent: 2em;
     color: var(--color-main-background);
