@@ -1,0 +1,7 @@
+#law-firm h1 {
+    color: var(--color-main);
+}
+
+#law-firm .law-firm-picture {
+    overflow: hidden;
+}
