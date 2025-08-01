@@ -1,0 +1,36 @@
+#site-footer{
+    background: linear-gradient(135deg, rgba(var(--color-second-rgb), 0.6), rgba(var(--color-main-rgb), 0.6), rgba(var(--color-main-second-rgb), 0.6)), url("../../images/night-view-1920.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-main-background);
+}
+
+.contacts .section-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact h2 {
+    padding-top: 2em;
+    padding-bottom: 2.5em;
+}
+
+#site-footer .site-logo {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+#site-footer #contact .contacts-title {
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+#site-footer .cnt .title {
+    display: inline-block;
+}
+
+#site-footer .cnt .copy {
+    display: inline-block;
+}
