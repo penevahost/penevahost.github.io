@@ -26,7 +26,7 @@
 
 @media only screen and (width > 480px) {
     :root {
-        --font-base-size: 16px;
+        --font-base-size: 14px;
     }
 
     h2 {
@@ -68,7 +68,7 @@
 
 @media only screen and (width > 768px) {
     :root {
-        --font-base-size: 18px;
+        --font-base-size: 16px;
     }
 
     #law-firm .content-wraper {
