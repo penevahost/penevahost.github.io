@@ -17,6 +17,7 @@ ul.section-wraper{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.5em;
 }
 
 .container {
@@ -104,4 +105,5 @@ ul.section-wraper{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.0625em;
+
 }
