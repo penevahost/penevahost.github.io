@@ -1,5 +1,5 @@
 #site-header {
-    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.6), rgba(var(--color-main-second-rgb), 0.6), rgba(var(--color-second-rgb), 0.6)), url("../../images/night-view-1920.png");
+    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.6), rgba(var(--color-main-second-rgb), 0.6), rgba(var(--color-second-rgb), 0.4)), url("../../images/night-view-1920.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,4 +12,5 @@
     justify-content: space-between;
     height: auto;
     height: auto;
+
 }
