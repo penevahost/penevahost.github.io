@@ -11,11 +11,12 @@
 }
 
 .light-button:hover {
-    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.5), rgba(var(--color-main-second-rgb), 0.5), rgba(var(--color-second-rgb), 0.5));
+    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.5), rgba(var(--color-main-second-rgb), 0.5), rgba(var(--color-second-rgb), 0.3));
     cursor: pointer;
 }
 
 .light-button:hover a {
     color: rgb(var(--color-main-background));
 }
+
 
