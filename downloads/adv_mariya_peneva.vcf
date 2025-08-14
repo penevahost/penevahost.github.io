@@ -1,13 +1,11 @@
 ﻿BEGIN:VCARD
 VERSION:2.1
 FN;CHARSET=UTF-8:Адв. Мария Пенева
-N;CHARSET=UTF-8:Пенева;Мария;;;Адв.
+N;CHARSET=UTF-8:Пенева;Мария;;Адв.;
 ORG;CHARSET=UTF-8:Адвокатска кантора Мария Пенева
 TITLE;CHARSET=UTF-8:Адвокат по облигационно\, вещно\, търговско и административно право
-TEL;TYPE=WORK,VOICE:+359887223997
-EMAIL;TYPE=WORK:office@advokat-peneva.com
+TEL;WORK,VOICE:+359887223997
+EMAIL;INTERNET:office@advokat-peneva.com
 URL:https://advokat-peneva.com/
-ADR;TYPE=WORK;CHARSET=UTF-8:;;ул. "Осогово" 77;София;;1303;България
-LANG:bg
-CLASS:PUBLIC
+ADR;WORK;CHARSET=UTF-8:;;ул. "Осогово" 77;София;;1303;България
 END:VCARD
