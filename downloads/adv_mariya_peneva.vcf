@@ -1,5 +1,5 @@
 ﻿BEGIN:VCARD
-VERSION:3.0
+VERSION:2.1
 FN;CHARSET=UTF-8:Адв. Мария Пенева
 N;CHARSET=UTF-8:Пенева;Мария;;;Адв.
 ORG;CHARSET=UTF-8:Адвокатска кантора Мария Пенева
@@ -10,4 +10,5 @@ URL:https://advokat-peneva.com/
 ADR;TYPE=WORK;CHARSET=UTF-8:;;ул. "Осогово" 77;София;;1303;България
 LANG:bg
 CLASS:PUBLIC
+
 END:VCARD
