@@ -45,11 +45,12 @@
     border-radius: 0.3em;
     padding: 1em 2em;
     transition: 0.5s;
-    flex: 1 0 40%;
+    flex: 1 0 50%;
 }
 
 #vcard .vcard-btn:hover{
     cursor: pointer;
     background-color: var(--color-main);
     color: var(--color-main-background);
+
 }
