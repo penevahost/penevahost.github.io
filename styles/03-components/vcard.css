@@ -1,4 +1,4 @@
-#vcard{
+#vcard {
     background-color: var(--color-main-background);
     color: var(--color-main);
     padding: 2em;
@@ -13,34 +13,35 @@
     text-transform: none;
     padding-bottom: 2em;
     color: var(--color-main-second);
+    font-weight: 400;
 }
 
-#vcard .contact{
+#vcard .contact {
     padding-bottom: 2em;
 }
 
-#vcard p{
+#vcard p {
     font-weight: bold;
     padding-bottom: 1em;
 }
 
-#vcard li{
+#vcard li {
     list-style-type: none;
 }
 
-#vcard a{
+#vcard a {
     text-decoration: none;
-    color:  var(--font-color);
+    color: var(--font-color);
     font-weight: lighter;
 }
 
-#vcard .container{
+#vcard .container {
     display: flex;
     flex-wrap: wrap;
-    gap:1em;
+    gap: 1em;
 }
 
-#vcard .vcard-btn{
+#vcard .vcard-btn {
     border: 2px solid var(--color-main);
     border-radius: 0.3em;
     padding: 1em 2em;
@@ -48,9 +49,28 @@
     flex: 1 0 50%;
 }
 
-#vcard .vcard-btn:hover{
+#vcard .vcard-btn:hover {
     cursor: pointer;
+}
+
+#vcard .dark {
     background-color: var(--color-main);
     color: var(--color-main-background);
+    transition: 0.5s;
+}
 
+#vcard .light {
+    background-color: var(--color-main-background);
+    color: var(--color-main);
+    transition: 0.5s;
+}
+
+#vcard .dark:hover {
+    background-color: var(--color-main-background);
+    color: var(--color-main);
+}
+
+#vcard .light:hover {
+    background-color: var(--color-main);
+    color: var(--color-main-background);
 }
