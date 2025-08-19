@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Пенева;Мария;;Адв.;
+FN:Адв. Мария Пенева
+ORG:Адвокатска кантора Мария Пенева
+TITLE:Адвокат по облигационно, вещно, търговско и административно право
+TEL;WORK;VOICE:+359887223997
+EMAIL;INTERNET:office@advokat-peneva.com
+URL:https://advokat-peneva.com/
+ADR;WORK:;;ул. "Осогово" 77;София;;1303;България
+END:VCARD
