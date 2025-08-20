@@ -8,5 +8,6 @@ TEL;TYPE=WORK,VOICE:+359887223997
 EMAIL:office@advokat-peneva.com
 URL:https://advokat-peneva.com/
 ADR;TYPE=WORK:;;ул. "Осогово" 77;София;;1303;България
-PHOTO;VALUE=URI:https://example.com/photo.jpg
+PHOTO;VALUE=URI:https://github.com/penevahost/penevahost.github.io/blob/main/images/advokat-peneva-600.jpg
 END:VCARD
+
