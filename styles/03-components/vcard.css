@@ -44,10 +44,6 @@
     overflow: hidden;
 }
 
-.name{
-    padding: 1em;
-}
-
 img{
     display: block; /* маха нежелани празнини */
     height: auto;
@@ -105,3 +101,4 @@ svg{
     height: 1.2em;
     fill: currentColor;
 }
+
