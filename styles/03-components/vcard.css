@@ -1,104 +1,137 @@
 #vcard {
     display: flex;
-    justify-content: center;  
-    height: 100vh;
-    width: 100vw;
-    background-color: var(--color-main-background);
-    font-family: var(--headings-font-hamily);
+    justify-content: center;
 }
 
-.card-wrapper{
-    max-width: 550px;
-    height: 100%;
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
     background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.6), rgba(var(--color-main-second-rgb), 0.6), rgba(var(--color-second-rgb), 0.4)), url("../../images/night-view-1920.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.brand {
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    text-shadow: var(--text-shadow);
+    z-index: 5;
+
+}
+
+.brand a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-main-second);
+    line-height: 1em;
+}
+
+.info {
+    /*background-color: var(--color-main-second);*/
+    width: 100%;
+    padding: 1em;
     color: var(--color-main-background);
-    box-shadow: var(--box-shadow);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0.3em;
-    
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    position: relative;
+    top: -2.3em;
 }
 
-.advokat{
-    background-color:  var(--color-main-background);
-    color: var(--color-main);
+.info h1 {
+    font-size: 2.3em;
+    text-shadow: var(--text-shadow);
+}
+
+.info .metier {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-top: 0.3em;
+
+}
+
+.info .specialism {
+    text-transform: uppercase;
+    opacity: 60%;
+}
+
+.contact-btns {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    gap: 0.6em;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+}
+
+.btn {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /*background-color: var(--color-main-background);*/
     border-radius: 0.3em;
-    padding: 0.3em;
+    border: 1px solid var(--color-main-background);
+    flex: 1 0 40%
 }
 
-.picture,
-.name{
-    flex: 0 0 50%;
+/*.download-btn {
+    background-color: var(--color-main-background);
+
 }
 
-.picture{
-    overflow: hidden;
+.download-btn a {
+    color: var(--color-main-second);
+
 }
 
-img{
-    display: block; /* маха нежелани празнини */
-    height: auto;
-    border-bottom-left-radius: 0.3em;
-    border-top-left-radius:  0.3em;
-}
+.website-btn {}*/
 
-h1{
-    font-size: 0.9em;
-    padding-bottom: 1em;
+.btn a {
+    display: flex;
+    gap: 0.5em;
+    text-decoration: none;
+    color: var(--color-main-background);
+    font-weight: normal;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
-p{
-    font-size: 0.8em;
-}
-
-#vcard .site-logo{
-    font-size: 1em;
-}
-
-.contact-btns{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3em;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.btn{
-    flex: 1 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    background-color:  var(--color-main-background);
-    border-radius: 0.3em;
-}
-
-.btn a{
-    text-decoration: none;
-    color: var(--color-main);
-    font-weight: normal;
-    font-size: 0.7em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.3em;
-}
-
-svg{
-    width: 1.2em;                   /* размер спрямо шрифта */
-    height: 1.2em;
+svg {
+    width: 1.5em;
+    height: 1.5em;
     fill: currentColor;
 }
 
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    /*background-color: var(--color-main-second);*/
+    width: 100%;
+    padding: 1em;
+}
+
+.contact-info p {
+    color: var(--color-main-background);
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.contact-info a {
+    color: var(--color-main-background);
+    text-decoration: none;
+}
+
+.contact-info .cnt {
+    flex: 0 0 100%
+}
