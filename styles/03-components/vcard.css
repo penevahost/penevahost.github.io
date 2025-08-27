@@ -70,6 +70,8 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 1em;
+    position: relative;
+    top: -2.3em;
 }
 
 .btn {
@@ -135,3 +137,4 @@ svg {
     
     font-size: 0.9em;
 }
+
