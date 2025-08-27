@@ -102,6 +102,7 @@ svg {
     width: 1.5em;
     height: 1.5em;
     fill: currentColor;
+    opacity: 60%;
 }
 
 .contact-info {
@@ -124,6 +125,9 @@ svg {
     color: var(--color-main-background);
     text-decoration: none;
     text-shadow: var(--text-shadow);
+    display: flex;
+    align-items: center;
+    gap:1em;
 }
 
 .contact-info .cnt {
@@ -131,12 +135,21 @@ svg {
 }
 
 .contact-info .cnt span:nth-child(1) {
-    display: block;
     opacity: 60%;
     font-size: 0.8em;
 }
 
-.contact-info .cnt span:nth-child(2) {
-    display: block;
+.contact-info a .group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info a .group span:nth-child(1){
+    font-size: 0.7em;
+    opacity: 70%;
+}
+
+.contact-info a .group span:nth-child(2){
     font-size: 0.9em;
+    opacity: 100%;
 }
