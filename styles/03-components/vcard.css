@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
-    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.6), rgba(var(--color-main-second-rgb), 0.6), rgba(var(--color-second-rgb), 0.4)), url("../../images/night-view-1920.png");
+    background: linear-gradient(135deg, rgba(var(--color-main-rgb), 0.7), rgba(var(--color-main-second-rgb), 0.7), rgba(var(--color-second-rgb), 0.5)), url("../../images/night-view-1920.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,7 @@
     border-top-right-radius: 1em;
     position: relative;
     top: -2.3em;
+    
 }
 
 .info h1 {
@@ -54,12 +55,13 @@
     text-transform: uppercase;
     font-size: 1.5em;
     padding-top: 0.3em;
-
+text-shadow: var(--text-shadow);
 }
 
 .info .specialism {
     text-transform: uppercase;
     opacity: 70%;
+    text-shadow: var(--text-shadow);
 }
 
 .contact-btns {
@@ -93,7 +95,7 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    
+    text-shadow: var(--text-shadow);
 }
 
 svg {
@@ -115,11 +117,13 @@ svg {
     color: var(--color-main-background);
     font-size: 1em;
     text-transform: uppercase;
+    text-shadow: var(--text-shadow);
 }
 
 .contact-info a {
     color: var(--color-main-background);
     text-decoration: none;
+    text-shadow: var(--text-shadow);
 }
 
 .contact-info .cnt {
@@ -134,7 +138,5 @@ svg {
 
 .contact-info .cnt span:nth-child(2) {
     display: block;
-    
     font-size: 0.9em;
 }
-
