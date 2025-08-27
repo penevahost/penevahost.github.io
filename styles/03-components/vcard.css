@@ -59,7 +59,7 @@
 
 .info .specialism {
     text-transform: uppercase;
-    opacity: 60%;
+    opacity: 70%;
 }
 
 .contact-btns {
@@ -81,29 +81,17 @@
     flex: 1 0 40%
 }
 
-/*.download-btn {
-    background-color: var(--color-main-background);
-
-}
-
-.download-btn a {
-    color: var(--color-main-second);
-
-}
-
-.website-btn {}*/
-
 .btn a {
     display: flex;
     gap: 0.5em;
     text-decoration: none;
     color: var(--color-main-background);
     font-weight: normal;
-    font-size: 1em;
+    font-size: 0.7em;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-weight: bold;
+    
 }
 
 svg {
@@ -121,9 +109,9 @@ svg {
     padding: 1em;
 }
 
-.contact-info p {
+.contact-info h3 {
     color: var(--color-main-background);
-    font-size: 1.5em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -133,5 +121,17 @@ svg {
 }
 
 .contact-info .cnt {
-    flex: 0 0 100%
+    flex: 1 1 100%
+}
+
+.contact-info .cnt span:nth-child(1) {
+    display: block;
+    opacity: 60%;
+    font-size: 0.8em;
+}
+
+.contact-info .cnt span:nth-child(2) {
+    display: block;
+    
+    font-size: 0.9em;
 }
