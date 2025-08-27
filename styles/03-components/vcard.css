@@ -11,39 +11,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-
-.brand {
-    display: none;
-    position: absolute;
-    top: 1.5em;
-    right: 1.5em;
-    text-shadow: var(--text-shadow);
-    z-index: 5;
-
-}
-
-.brand a {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--color-main-second);
-    line-height: 1em;
+    
 }
 
 .info {
-    /*background-color: var(--color-main-second);*/
     width: 100%;
     padding: 1em;
     color: var(--color-main-background);
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     position: relative;
-    top: -2.3em;
-    
 }
 
 .info h1 {
@@ -54,8 +31,10 @@
 .info .metier {
     text-transform: uppercase;
     font-size: 1.5em;
-    padding-top: 0.3em;
-text-shadow: var(--text-shadow);
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    text-shadow: var(--text-shadow);
+    font-weight: bold;
 }
 
 .info .specialism {
@@ -73,7 +52,6 @@ text-shadow: var(--text-shadow);
     width: 100%;
     padding: 1em;
     position: relative;
-    top: -2.3em;
 }
 
 .btn {
@@ -109,7 +87,6 @@ svg {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    /*background-color: var(--color-main-second);*/
     width: 100%;
     padding: 1em;
 }
