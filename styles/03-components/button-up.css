@@ -1,0 +1,18 @@
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 99;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--color-main);
+    color: var(--color-main-background);
+    padding: 0.6em 0.7em 0.3em 0.7em;
+}
+
+#scrollTopBtn:hover {
+    background-color: var(--color-main-second);
+}
