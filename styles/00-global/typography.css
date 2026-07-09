@@ -150,7 +150,7 @@ h5,
 h6 {
     font-size: 1.0em;
     font-family: var(--headings-font-hamily);
-    text-transform: uppercase;
+    
     font-weight: bolder;
     line-height: 1.1em;
 }
