@@ -1,6 +1,6 @@
 @media only screen and (width <=480px) {
     :root {
-        --font-base-size: 14px;
+        --font-base-size: 15px;
     }
 
     #services .areas-list .det {
@@ -26,7 +26,7 @@
 
 @media only screen and (width > 480px) {
     :root {
-        --font-base-size: 14px;
+        --font-base-size: 16px;
     }
 
     h2 {
@@ -68,7 +68,7 @@
 
 @media only screen and (width > 768px) {
     :root {
-        --font-base-size: 16px;
+        --font-base-size: 17px;
     }
 
     #law-firm .content-wraper {
@@ -141,7 +141,7 @@
 
 @media only screen and (width > 1280px) {
     :root {
-        --font-base-size: 20px;
+        --font-base-size: 18px;
     }
 
 }
