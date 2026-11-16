@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Design tokens — единствен източник на истината за визуалната система
+   ========================================================================== */
+
+:root {
+  /* --- Шрифтове -------------------------------------------------------- */
+  /* Локални .woff2 файлове — декларациите са в fonts.css.                  */
+  /* Manrope: текст, навигация, етикети, UI.                               */
+  /* Spectral: редакционни заглавия и серифна типография.                  */
+  /* И двете семейства изискват локализирани български кирилски форми.      */
+  --font-serif: "Spectral", serif;
+  --font-sans: "Manrope", sans-serif;
+
+  /* --- Цветове --------------------------------------------------------- */
+  --color-primary: #17252e;
+  --color-primary-dark: #101b22;
+  --color-primary-light: #344b59;
+
+  --color-background: #fafbf9;
+  --color-background-alt: #edf1ef;
+  --color-surface: #ffffff;
+
+  --color-text: #13233a;
+  --color-text-muted: #3a4d66;
+  --color-text-faint: #63758c;
+  --color-border: #dce2df;
+  --color-border-strong: #bcc9c4;
+
+  --color-accent: #2a7bd1;
+  --color-accent-soft: #5d9de0;
+  --color-accent-bright: #2a85e0;
+
+  /* --- Семантични цветове за бутоните ---------------------------------- */
+  --color-button-primary: var(--color-primary);
+  --color-button-primary-hover: var(--color-primary-light);
+  --color-button-primary-text: var(--color-surface);
+  --color-button-secondary: var(--color-background-alt);
+  --color-button-secondary-hover: var(--color-border);
+  --color-button-secondary-text: var(--color-primary);
+  --color-button-destructive: #a33232;
+  --color-button-destructive-hover: #882929;
+  --color-button-destructive-text: var(--color-surface);
+  --color-button-ring: color-mix(in srgb, var(--color-primary) 42%, transparent);
+  --shadow-button: 0 1px 2px color-mix(in srgb, var(--color-primary-dark) 14%, transparent);
+
+  --color-focus: #17252e;
+
+  /* --- Редакционни повърхности ---------------------------------------- */
+  --editorial-plane: color-mix(in srgb, var(--color-background-alt) 72%, transparent);
+  --editorial-plane-soft: color-mix(in srgb, var(--color-surface) 58%, transparent);
+  --editorial-line: color-mix(in srgb, var(--color-primary) 9%, transparent);
+  --editorial-line-soft: color-mix(in srgb, var(--color-primary) 5%, transparent);
+  --editorial-accent-line: color-mix(in srgb, var(--color-accent) 48%, transparent);
+
+  /* --- Типографска скала (fluid) --------------------------------------- */
+  --fs-display: 3rem;
+  --fs-h1: 2.375rem;
+  --fs-h2: 1.875rem;
+  --fs-h3: 1.375rem;
+  --fs-h4: 1.0625rem;
+  --fs-lead: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.75rem;
+  --fs-meta: 0.8125rem;
+  /* Малкият надпис над заглавията — безсерифен с малки главни букви. */
+  --fs-label-caps: 1.05rem;
+
+  --lh-tight: 1.06;
+  --lh-heading: 1.18;
+  --lh-body: 1.68;
+  --lh-lead: 1.5;
+
+  --ls-display: 0;
+  --ls-heading: 0;
+  --ls-label: 0;
+  --ls-label-caps: 0.07em;
+  --ls-body: 0;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  /* --- Отстояния ------------------------------------------------------- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.25rem;
+  --space-xl: 3.25rem;
+  --space-2xl: 3.5rem;
+  --space-3xl: 5rem;
+
+  --section-space: 3.5rem;
+
+  /* --- Оформление ------------------------------------------------------ */
+  --container-max: 72rem;
+  --content-max: 36rem;
+  --measure-wide: 46rem;
+  --gutter: 1.5rem;
+  --grid-gap: 2rem;
+  --rule: 1px solid var(--color-border);
+
+  /* --- Движение -------------------------------------------------------- */
+  --dur-fast: 140ms;
+  --dur-base: 260ms;
+  --dur-slow: 620ms;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  /* --- Друго ----------------------------------------------------------- */
+  --touch-target: 44px;
+  --header-height: 60px;
+  --button-radius: 0;
+}
+
+@media (min-width: 60rem) {
+  :root {
+    --header-height: 76px;
+  }
+}
+
+/* Typography changes at deliberate breakpoints, never by viewport scaling. */
+@media (min-width: 48rem) {
+  :root {
+    --fs-display: 4rem;
+    --fs-h1: 3.25rem;
+    --fs-h2: 2.5rem;
+    --gutter: 2.5rem;
+    --grid-gap: 3rem;
+    --section-space: 5rem;
+  }
+}

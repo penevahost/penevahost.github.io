@@ -1,0 +1,65 @@
+/* ========================= База ========================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: calc(var(--header-height) + 1rem);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  font-weight: var(--fw-regular);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--space-sm);
+  inset-block-start: -6rem;
+  z-index: 100;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  padding: var(--space-2xs) var(--space-sm);
+  font-size: var(--fs-small);
+  transition: inset-block-start var(--dur-fast) var(--ease);
+}
+
+.skip-link:focus {
+  inset-block-start: var(--space-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Плавно превъртане и отстъп при якорни връзки */
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:6rem}
+.faq__answer ul{padding-left:1.2em;list-style:disc}
+.faq__answer li+li{margin-top:.4em}

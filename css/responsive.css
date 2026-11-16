@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Прогресивно разширяване: мобилно → таблет → лаптоп → десктоп → широк екран
+   Основната система е мобилна; тук се добавят само надграждания.
+   ========================================================================== */
+
+/* --- Много тесни телефони (320px) -------------------------------------- */
+@media (max-width: 22.5rem) {
+  :root {
+    --gutter: 1.125rem;
+  }
+
+  .nav-mobile__list a {
+    font-size: 1.3rem;
+  }
+
+  .hero__headline {
+    font-size: 2.125rem;
+  }
+
+  h1, .h1 {
+    font-size: 2rem;
+  }
+
+  h1, h2, h3, .h1, .h2, .h3 {
+    overflow-wrap: anywhere;
+  }
+
+}
+
+/* --- Таблет ------------------------------------------------------------- */
+@media (min-width: 48rem) {
+  .hero__meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--grid-gap);
+  }
+}
+
+/* --- Лаптоп ------------------------------------------------------------- */
+@media (min-width: 64rem) {
+  .hero__title {
+    max-width: 16ch;
+  }
+
+  .offset-start {
+    padding-inline-start: var(--space-xl);
+  }
+}
+
+/* --- Широк десктоп ------------------------------------------------------ */
+@media (min-width: 100rem) {
+  :root {
+    --container-max: 72rem;
+    --content-max: 40rem;
+  }
+}
+
+/* --- Печат --------------------------------------------------------------- */
+@media print {
+  .site-header,
+  .nav-mobile,
+  .site-footer,
+  .btn,
+  .arrow-link {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
+
+/* Компактен header на много тесни телефони */
+@media (max-width: 26rem) {
+  .wordmark__role {
+    display: none;
+  }
+}

@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Локални шрифтове — Manrope (sans) & Spectral (serif)
+   --------------------------------------------------------------------------
+   САМО локални файлове. Без Google Fonts, без външни CDN услуги.
+
+   Файловете се намират в /public/fonts/ и се зареждат с root-relative
+   пътища (/fonts/filename.woff2):
+
+     Manrope-Regular.woff2        (400)
+     Manrope-Medium.woff2         (500)
+     Manrope-SemiBold.woff2       (600)
+
+     Spectral-Regular.woff2       (400)
+     Spectral-Italic.woff2        (400, курсив)
+     Spectral-Medium.woff2        (500)
+     Spectral-SemiBold.woff2      (600)
+     Spectral-SemiBoldItalic.woff2 (600, курсив)
+
+   Файловете съдържат локализираните български кирилски форми (locl BGR).
+   ========================================================================== */
+
+/* --- Manrope — основен sans-serif --------------------------------------- */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Spectral — редакционен serif --------------------------------------- */
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
