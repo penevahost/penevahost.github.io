@@ -1048,7 +1048,7 @@ a.entry:hover .entry__more::after {
   color: var(--color-text-muted);
   text-wrap: pretty;
 }
-.hero__actions { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: center; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: center; margin-top: var(--space-lg); }
 .hero__cta {
   display: inline-flex;
   align-items: center;
